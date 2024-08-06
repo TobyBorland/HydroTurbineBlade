@@ -1,0 +1,45 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Struct_Analysis.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.45: Unknown function Normalized_AF_Coordinate not converted, original ca
+ lling sequence used.
+   ! L.46: real(NumSeg) may be replaced by:
+   !    --> NumSeg if NumSeg is Real.
+   !! L.49: Unknown function Normalized_AF_Coordinate not converted, original ca
+ lling sequence used.
+   !! L.80: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.80: Matlab function sind not yet converted, original calling sequence us
+ ed.
+   !! L.81: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.81: Matlab function sind not yet converted, original calling sequence us
+ ed.
+   !! L.93: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.93: Matlab function sind not yet converted, original calling sequence us
+ ed.
+   !! L.95: Matlab function sind not yet converted, original calling sequence us
+ ed.
+   !! L.95: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.97: Matlab function sind not yet converted, original calling sequence us
+ ed.
+   !! L.97: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.99: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.99: Matlab function sind not yet converted, original calling sequence us
+ ed.

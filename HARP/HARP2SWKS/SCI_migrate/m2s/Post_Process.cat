@@ -1,0 +1,7 @@
+This function performs various tasks after the optimization code has found
+the best solution:
+       -Builds & Evaluates the final WT_Perf files which correspond to the
+        best solution found by the genetic algorithm
+       -Edits the headers of the WT_Perf files to show the time/date they
+        were created
+       -Prints the output data to the Excel output file

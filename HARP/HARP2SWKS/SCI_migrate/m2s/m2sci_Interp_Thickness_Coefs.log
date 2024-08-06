@@ -1,0 +1,80 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Interp_Thickness_Coefs.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.18: Matlab function waitbar not yet converted, original calling sequence
+  used.
+   L.18: (Warning name conflict: function name changed from waitbar to %waitbar)
+ .
+   !! L.19: Matlab function get not yet converted, original calling sequence use
+ d.
+   L.19: (Warning name conflict: function name changed from get to %get).
+   !! L.20: Matlab function get not yet converted, original calling sequence use
+ d.
+   L.20: (Warning name conflict: function name changed from get to %get).
+   !! L.21: Matlab function set not yet converted, original calling sequence use
+ d.
+   L.21: (Warning name conflict: function name changed from set to %set).
+   !! L.33: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   L.48: No simple equivalent, so mtlb_fprintf() is called.
+   L.49: No simple equivalent, so mtlb_fprintf() is called.
+   L.50: No simple equivalent, so mtlb_fprintf() is called.
+   L.51: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.59: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   !! L.60: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   !! L.62: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   ! L.63: abs(isnan(AF1(:,5))) may be replaced by:
+   !    --> isnan(AF1(:,5)) if isnan(AF1(:,5)) is Real.
+   ! L.64: abs(isnan(AF1(:,4))) may be replaced by:
+   !    --> isnan(AF1(:,4)) if isnan(AF1(:,4)) is Real.
+   !! L.74: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   !! L.75: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   !! L.77: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   ! L.78: abs(isnan(AF2(:,5))) may be replaced by:
+   !    --> isnan(AF2(:,5)) if isnan(AF2(:,5)) is Real.
+   ! L.79: abs(isnan(AF2(:,4))) may be replaced by:
+   !    --> isnan(AF2(:,4)) if isnan(AF2(:,4)) is Real.
+   L.97: No simple equivalent, so mtlb_fprintf() is called.
+   L.98: No simple equivalent, so mtlb_fprintf() is called.
+   L.99: No simple equivalent, so mtlb_fprintf() is called.
+   L.100: No simple equivalent, so mtlb_fprintf() is called.
+   L.101: No simple equivalent, so mtlb_fprintf() is called.
+   L.102: No simple equivalent, so mtlb_fprintf() is called.
+   L.103: No simple equivalent, so mtlb_fprintf() is called.
+   L.104: No simple equivalent, so mtlb_fprintf() is called.
+   L.118: No simple equivalent, so mtlb_fprintf() is called.
+   L.123: No simple equivalent, so mtlb_fprintf() is called.
+   L.126: No simple equivalent, so mtlb_fprintf() is called.
+   L.254: No simple equivalent, so mtlb_fprintf() is called.
+   L.260: No simple equivalent, so mtlb_fprintf() is called.
+   L.263: No simple equivalent, so mtlb_fprintf() is called.
+   L.269: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.277: Matlab function waitbar not yet converted, original calling sequenc
+ e used.
+   L.277: (Warning name conflict: function name changed from waitbar to %waitbar
+ ).
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

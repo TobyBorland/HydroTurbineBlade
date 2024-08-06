@@ -1,0 +1,62 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/gaCustom_Creation.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   L.46: No simple equivalent, so mtlb_fprintf() is called.
+   L.47: No simple equivalent, so mtlb_fprintf() is called.
+   L.48: No simple equivalent, so mtlb_fprintf() is called.
+   L.49: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.57: Matlab function waitbar not yet converted, original calling sequence
+  used.
+   L.57: (Warning name conflict: function name changed from waitbar to %waitbar)
+ .
+   !! L.58: Matlab function setappdata not yet converted, original calling seque
+ nce used.
+   !! L.221: Matlab function getappdata not yet converted, original calling sequ
+ ence used.
+   !! L.227: Matlab function sprintf not yet converted, original calling sequenc
+ e used.
+   L.227: (Warning name conflict: function name changed from sprintf to %sprintf
+ ).
+   !! L.227: Matlab function waitbar not yet converted, original calling sequenc
+ e used.
+   L.227: (Warning name conflict: function name changed from waitbar to %waitbar
+ ).
+   !! L.249: Matlab function figure not yet converted, original calling sequence
+  used.
+   !! L.250: Matlab function set not yet converted, original calling sequence us
+ ed.
+   L.250: (Warning name conflict: function name changed from set to %set).
+   !! L.253: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.254: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.255: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.256: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.258: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.259: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.260: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.261: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   !! L.262: Matlab function xlim not yet converted, original calling sequence u
+ sed.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

@@ -1,0 +1,25 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Read_WTP_Output.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.17: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   ! L.22: abs(isnan(Output(:,2))) may be replaced by:
+   !    --> isnan(Output(:,2)) if isnan(Output(:,2)) is Real.
+   ! L.22: abs(mtlb_logic(Output(:,2),"<",-999)) may be replaced by:
+   !    --> mtlb_logic(Output(:,2),"<",-999) if mtlb_logic(Output(:,2),"<",-999)
+  is Real.
+   ! L.22: abs(mtlb_logic(Output(:,2),">",-10001)) may be replaced by:
+   !    --> mtlb_logic(Output(:,2),">",-10001) if mtlb_logic(Output(:,2),">",-10
+ 001) is Real.

@@ -1,0 +1,32 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ HARP2SWKS/CSintegrals_.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Warning: file C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/HAR
+ P2SWKS/CSintegrals_.m defines function CSintegrals instead of CSintegrals_
+            CSintegrals.sci, CSintegrals.cat and sci_CSintegrals.sci will be gen
+ erated !
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.11: Unknown function FresnelCS not converted, original calling sequence 
+ used.
+   !! L.11: Unknown function FresnelCS not converted, original calling sequence 
+ used.
+   ! L.22: mtlb(exp_itheta0) can be replaced by exp_itheta0() or exp_itheta0 whe
+ ther exp_itheta0 is an M-file or not.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

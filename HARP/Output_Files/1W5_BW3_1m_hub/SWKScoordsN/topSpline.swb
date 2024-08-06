@@ -1,0 +1,45 @@
+Dim swApp As Object
+Dim Part As Object
+Dim SelMgr As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim Feature As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.ActiveDoc
+Set SelMgr = Part.SelectionManager
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.InsertCurveFileBegin
+Part.InsertCurveFilePoint 0.014883, -0.042221, 0.078094
+Part.InsertCurveFilePoint 0.001917, -0.064618, 0.120060
+Part.InsertCurveFilePoint 0.006420, -0.058593, 0.134132
+Part.InsertCurveFilePoint 0.010251, -0.053462, 0.148204
+Part.InsertCurveFilePoint 0.013493, -0.049003, 0.162276
+Part.InsertCurveFilePoint 0.016225, -0.045051, 0.176348
+Part.InsertCurveFilePoint 0.018478, -0.041521, 0.190420
+Part.InsertCurveFilePoint 0.020280, -0.038347, 0.204491
+Part.InsertCurveFilePoint 0.021657, -0.035475, 0.218563
+Part.InsertCurveFilePoint 0.022632, -0.032861, 0.232635
+Part.InsertCurveFilePoint 0.023229, -0.030470, 0.246707
+Part.InsertCurveFilePoint 0.023464, -0.028273, 0.260779
+Part.InsertCurveFilePoint 0.023360, -0.026246, 0.274851
+Part.InsertCurveFilePoint 0.022925, -0.024370, 0.288922
+Part.InsertCurveFilePoint 0.022141, -0.022638, 0.302994
+Part.InsertCurveFilePoint 0.021040, -0.021025, 0.317066
+Part.InsertCurveFilePoint 0.019656, -0.019513, 0.331138
+Part.InsertCurveFilePoint 0.017995, -0.018090, 0.345210
+Part.InsertCurveFilePoint 0.016032, -0.016754, 0.359282
+Part.InsertCurveFilePoint 0.013771, -0.015491, 0.373353
+Part.InsertCurveFilePoint 0.011282, -0.014284, 0.387425
+Part.InsertCurveFilePoint 0.008527, -0.013129, 0.401497
+Part.InsertCurveFilePoint 0.005482, -0.012019, 0.415569
+Part.InsertCurveFilePoint 0.002226, -0.010940, 0.429641
+Part.InsertCurveFilePoint -0.001270, -0.009886, 0.443713
+Part.InsertCurveFilePoint -0.005033, -0.008846, 0.457784
+Part.InsertCurveFilePoint -0.008989, -0.007816, 0.471856
+Part.InsertCurveFilePoint -0.013161, -0.006785, 0.485928
+Part.InsertCurveFilePoint -0.017664, -0.005727, 0.500000
+Part.InsertCurveFileEnd
+End Sub

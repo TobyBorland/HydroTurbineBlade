@@ -1,0 +1,59 @@
+AeroDyn airfoil file.  Compatible with AeroDyn v13.0.
+Circular cross section with multiple Reynolds Numbers.
+Data came from PROPID. Fourth column is the min. pressure coefficient (does not vary with Re).
+5         Number of airfoil tables in this file
+ 0.5      Reynolds numbers in millions
+ 0.0      Stall angle (deg)
+ 0.0      Zero lift angle of attack (deg)
+ 0.0      Cn slope for zero lift (dimensionless)
+ 0.0      Cn at stall value for positive angle of attack
+ 0.0      Cn at stall value for negative angle of attack
+ 0.0      Angle of attack for minimum CD (deg)
+ 0.31     Minimum CD value
+-180.0    0.0   0.31   -3.0
+ 180.0    0.0   0.31   -3.0
+EOT 1
+ 1.0      Reynolds numbers in millions
+ 0.0      Stall angle (deg)
+ 0.0      Zero lift angle of attack (deg)
+ 0.0      Cn slope for zero lift (dimensionless)
+ 0.0      Cn at stall value for positive angle of attack
+ 0.0      Cn at stall value for negative angle of attack
+ 0.0      Angle of attack for minimum CD (deg)
+ 0.38     Minimum CD value
+-180.0    0.0   0.38   -3.0
+ 180.0    0.0   0.38   -3.0
+EOT 2
+ 1.5      Reynolds numbers in millions
+ 0.0      Stall angle (deg)
+ 0.0      Zero lift angle of attack (deg)
+ 0.0      Cn slope for zero lift (dimensionless)
+ 0.0      Cn at stall value for positive angle of attack
+ 0.0      Cn at stall value for negative angle of attack
+ 0.0      Angle of attack for minimum CD (deg)
+ 0.46     Minimum CD value
+-180.0    0.0   0.46   -3.0
+ 180.0    0.0   0.46   -3.0
+EOT 3
+ 2.0      Reynolds numbers in millions
+ 0.0      Stall angle (deg)
+ 0.0      Zero lift angle of attack (deg)
+ 0.0      Cn slope for zero lift (dimensionless)
+ 0.0      Cn at stall value for positive angle of attack
+ 0.0      Cn at stall value for negative angle of attack
+ 0.0      Angle of attack for minimum CD (deg)
+ 0.53     Minimum CD value
+-180.0    0.0   0.53   -3.0
+ 180.0    0.0   0.53   -3.0
+EOT 4
+ 2.5      Reynolds numbers in millions
+ 0.0      Stall angle (deg)
+ 0.0      Zero lift angle of attack (deg)
+ 0.0      Cn slope for zero lift (dimensionless)
+ 0.0      Cn at stall value for positive angle of attack
+ 0.0      Cn at stall value for negative angle of attack
+ 0.0      Angle of attack for minimum CD (deg)
+ 0.57     Minimum CD value
+-180.0    0.0   0.57   -3.0
+ 180.0    0.0   0.57   -3.0
+EOT 5

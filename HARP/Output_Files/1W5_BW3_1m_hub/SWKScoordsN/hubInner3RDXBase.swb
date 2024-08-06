@@ -1,0 +1,46 @@
+Dim swApp As Object
+Dim Part As Object
+Dim SelMgr As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim Feature As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.ActiveDoc
+Set SelMgr = Part.SelectionManager
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.InsertCurveFileBegin
+Part.InsertCurveFilePoint 0.000000, -0.123736, -0.013750
+Part.InsertCurveFilePoint 0.001487, -0.123736, -0.013669
+Part.InsertCurveFilePoint 0.002956, -0.123736, -0.013429
+Part.InsertCurveFilePoint 0.004390, -0.123736, -0.013030
+Part.InsertCurveFilePoint 0.005773, -0.123736, -0.012479
+Part.InsertCurveFilePoint 0.007089, -0.123736, -0.011782
+Part.InsertCurveFilePoint 0.008321, -0.123736, -0.010946
+Part.InsertCurveFilePoint 0.009456, -0.123736, -0.009982
+Part.InsertCurveFilePoint 0.010480, -0.123736, -0.008902
+Part.InsertCurveFilePoint 0.011381, -0.123736, -0.007716
+Part.InsertCurveFilePoint 0.012148, -0.123736, -0.006441
+Part.InsertCurveFilePoint 0.012773, -0.123736, -0.005089
+Part.InsertCurveFilePoint 0.013249, -0.123736, -0.003679
+Part.InsertCurveFilePoint 0.013569, -0.123736, -0.002225
+Part.InsertCurveFilePoint 0.013730, -0.123736, -0.000744
+Part.InsertCurveFilePoint 0.013730, -0.123736, 0.000744
+Part.InsertCurveFilePoint 0.013569, -0.123736, 0.002225
+Part.InsertCurveFilePoint 0.013249, -0.123736, 0.003679
+Part.InsertCurveFilePoint 0.012773, -0.123736, 0.005089
+Part.InsertCurveFilePoint 0.012148, -0.123736, 0.006441
+Part.InsertCurveFilePoint 0.011381, -0.123736, 0.007716
+Part.InsertCurveFilePoint 0.010480, -0.123736, 0.008902
+Part.InsertCurveFilePoint 0.009456, -0.123736, 0.009982
+Part.InsertCurveFilePoint 0.008321, -0.123736, 0.010946
+Part.InsertCurveFilePoint 0.007089, -0.123736, 0.011782
+Part.InsertCurveFilePoint 0.005773, -0.123736, 0.012479
+Part.InsertCurveFilePoint 0.004390, -0.123736, 0.013030
+Part.InsertCurveFilePoint 0.002956, -0.123736, 0.013429
+Part.InsertCurveFilePoint 0.001487, -0.123736, 0.013669
+Part.InsertCurveFilePoint 0.000000, -0.123736, 0.013750
+Part.InsertCurveFileEnd
+End Sub

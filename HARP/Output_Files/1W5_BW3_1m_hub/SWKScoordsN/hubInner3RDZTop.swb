@@ -1,0 +1,46 @@
+Dim swApp As Object
+Dim Part As Object
+Dim SelMgr As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim Feature As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.ActiveDoc
+Set SelMgr = Part.SelectionManager
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.InsertCurveFileBegin
+Part.InsertCurveFilePoint 0.011908, 0.001256, 0.006875
+Part.InsertCurveFilePoint 0.011381, 0.001256, 0.007716
+Part.InsertCurveFilePoint 0.010794, 0.001256, 0.008517
+Part.InsertCurveFilePoint 0.010152, 0.001256, 0.009274
+Part.InsertCurveFilePoint 0.009456, 0.001256, 0.009982
+Part.InsertCurveFilePoint 0.008711, 0.001256, 0.010639
+Part.InsertCurveFilePoint 0.007921, 0.001256, 0.011240
+Part.InsertCurveFilePoint 0.007089, 0.001256, 0.011782
+Part.InsertCurveFilePoint 0.006220, 0.001256, 0.012263
+Part.InsertCurveFilePoint 0.005319, 0.001256, 0.012679
+Part.InsertCurveFilePoint 0.004390, 0.001256, 0.013030
+Part.InsertCurveFilePoint 0.003439, 0.001256, 0.013313
+Part.InsertCurveFilePoint 0.002469, 0.001256, 0.013526
+Part.InsertCurveFilePoint 0.001487, 0.001256, 0.013669
+Part.InsertCurveFilePoint 0.000496, 0.001256, 0.013741
+Part.InsertCurveFilePoint -0.000496, 0.001256, 0.013741
+Part.InsertCurveFilePoint -0.001487, 0.001256, 0.013669
+Part.InsertCurveFilePoint -0.002469, 0.001256, 0.013526
+Part.InsertCurveFilePoint -0.003439, 0.001256, 0.013313
+Part.InsertCurveFilePoint -0.004390, 0.001256, 0.013030
+Part.InsertCurveFilePoint -0.005319, 0.001256, 0.012679
+Part.InsertCurveFilePoint -0.006220, 0.001256, 0.012263
+Part.InsertCurveFilePoint -0.007089, 0.001256, 0.011782
+Part.InsertCurveFilePoint -0.007921, 0.001256, 0.011240
+Part.InsertCurveFilePoint -0.008711, 0.001256, 0.010639
+Part.InsertCurveFilePoint -0.009456, 0.001256, 0.009982
+Part.InsertCurveFilePoint -0.010152, 0.001256, 0.009274
+Part.InsertCurveFilePoint -0.010794, 0.001256, 0.008517
+Part.InsertCurveFilePoint -0.011381, 0.001256, 0.007716
+Part.InsertCurveFilePoint -0.011908, 0.001256, 0.006875
+Part.InsertCurveFileEnd
+End Sub

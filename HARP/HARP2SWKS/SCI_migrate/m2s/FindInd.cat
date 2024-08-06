@@ -1,0 +1,11 @@
+This function finds the index of the closest value to Value within the vector Vector
+Inputs:    Vector: A column or row vector, the values within Vector MUST be unique (i.e. no repeated values)AND monotonically increasing or decresing
+           Value: The scalar value being searched for within Vector
+
+Outputs:   index: scalar, index of closest value to Value within the vector Vector
+
+Note:  If the value being searched for lies directly in the middle of its 
+two adjacent values, then it is determined to be closest to the larger
+of the two values if Value is positive, and closest to the smallest value
+if Value is negative.  If the value being searched for lies outside of the
+range of Vector, than index is equal to either 1 or the length of Vector

@@ -1,0 +1,8 @@
+This function performs numerical integration via the Simpsons's method.
+Input:     Vector1: vector of the "x" values to be integrated over
+           Vector2: vector of the "y(x)" values 
+           a: index value of Vector1 to begin the integration
+           b: index value of Vector1 to end the integration
+
+Output:    Output: scalar, the integral of Vector2 over the interval
+                   Vector1 from a to b

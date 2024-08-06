@@ -1,0 +1,20 @@
+Dim swApp As Object
+Dim Part As Object
+Dim SelMgr As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim Feature As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.ActiveDoc
+Set SelMgr = Part.SelectionManager
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.InsertCurveFileBegin
+Part.InsertCurveFilePoint 0.200000, -0.038732, -0.016580
+Part.InsertCurveFilePoint 0.200000, 0, 0.099467
+Part.InsertCurveFilePoint 0.200000, 0, 0.114099
+Part.InsertCurveFilePoint 0.200000, 0, 0.120060
+Part.InsertCurveFileEnd
+End Sub

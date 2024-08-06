@@ -1,0 +1,46 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Define_Blade_Shape.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.25: Unknown function hcosspace not converted, original calling sequence 
+ used.
+   !! L.27: Unknown function hcosspace not converted, original calling sequence 
+ used.
+   !! L.38: Unknown function hcosspace not converted, original calling sequence 
+ used.
+   !! L.205: Unknown function FiniteDiff not converted, original calling sequenc
+ e used.
+   !! L.209: Unknown function FindInd not converted, original calling sequence u
+ sed.
+   !! L.210: Unknown function FindInd not converted, original calling sequence u
+ sed.
+   !! L.211: Unknown function FiniteDiff not converted, original calling sequenc
+ e used.
+   !! L.212: Unknown function FindInd not converted, original calling sequence u
+ sed.
+   !! L.230: Unknown function FiniteDiff not converted, original calling sequenc
+ e used.
+   !! L.231: Unknown function FiniteDiff not converted, original calling sequenc
+ e used.
+   ! L.233: abs(mtlb_logic(ddimTdr,">",tol)) may be replaced by:
+   !    --> mtlb_logic(ddimTdr,">",tol) if mtlb_logic(ddimTdr,">",tol) is Real.
+   ! L.233: abs(mtlb_logic(dTdr,">",tol)) may be replaced by:
+   !    --> mtlb_logic(dTdr,">",tol) if mtlb_logic(dTdr,">",tol) is Real.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

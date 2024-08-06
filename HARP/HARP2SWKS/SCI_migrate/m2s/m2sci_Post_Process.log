@@ -1,0 +1,64 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Post_Process.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.40: Matlab function persistent not yet converted, original calling seque
+ nce used.
+   L.53: No simple equivalent, so mtlb_fprintf() is called.
+   L.55: No simple equivalent, so mtlb_fprintf() is called.
+   L.57: No simple equivalent, so mtlb_fprintf() is called.
+   L.59: No simple equivalent, so mtlb_fprintf() is called.
+   L.61: No simple equivalent, so mtlb_fprintf() is called.
+   L.63: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.67: Matlab function evalc not yet converted, original calling sequence u
+ sed.
+   L.79: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.83: Matlab function evalc not yet converted, original calling sequence u
+ sed.
+   !! L.90: Matlab function movefile not yet converted, original calling sequenc
+ e used.
+   L.90: (Warning name conflict: function name changed from movefile to %movefil
+ e).
+   !! L.92: Matlab function movefile not yet converted, original calling sequenc
+ e used.
+   L.92: (Warning name conflict: function name changed from movefile to %movefil
+ e).
+   !! L.94: Matlab function movefile not yet converted, original calling sequenc
+ e used.
+   L.94: (Warning name conflict: function name changed from movefile to %movefil
+ e).
+   !! L.100: Matlab function textscan not yet converted, original calling sequen
+ ce used.
+   !! L.101: Matlab function textscan not yet converted, original calling sequen
+ ce used.
+   !! L.102: Matlab function textscan not yet converted, original calling sequen
+ ce used.
+   !! L.103: Matlab function textscan not yet converted, original calling sequen
+ ce used.
+   !! L.104: Matlab function textscan not yet converted, original calling sequen
+ ce used.
+   !! L.111: Matlab function textscan not yet converted, original calling sequen
+ ce used.
+   !! L.123: Matlab function datestr not yet converted, original calling sequenc
+ e used.
+   L.126: No simple equivalent, so mtlb_fprintf() is called.
+   L.127: No simple equivalent, so mtlb_fprintf() is called.
+   L.133: No simple equivalent, so mtlb_fprintf() is called.
+   L.139: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.163: string output can be different from Matlab num2str output.
+   !! L.166: string output can be different from Matlab num2str output.
+   !! L.166: string output can be different from Matlab num2str output.
+   !! L.166: string output can be different from Matlab num2str output.
+   !! L.219: Matlab function num2cell not yet converted, original calling sequen
+ ce used.

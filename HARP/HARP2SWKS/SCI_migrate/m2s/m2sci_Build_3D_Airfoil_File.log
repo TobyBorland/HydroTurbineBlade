@@ -1,0 +1,43 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Build_3D_Airfoil_File.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.37: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   L.41: No simple equivalent, so mtlb_fprintf() is called.
+   L.46: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.48: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   ! L.49: abs(isnan(Aero_Coefficients(:,5))) may be replaced by:
+   !    --> isnan(Aero_Coefficients(:,5)) if isnan(Aero_Coefficients(:,5)) is Re
+ al.
+   ! L.50: abs(isnan(Aero_Coefficients(:,4))) may be replaced by:
+   !    --> isnan(Aero_Coefficients(:,4)) if isnan(Aero_Coefficients(:,4)) is Re
+ al.
+   L.56: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.57: string output can be different from Matlab num2str output.
+   L.57: No simple equivalent, so mtlb_fprintf() is called.
+   L.60: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.61: string output can be different from Matlab num2str output.
+   L.61: No simple equivalent, so mtlb_fprintf() is called.
+   L.64: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.65: string output can be different from Matlab num2str output.
+   L.65: No simple equivalent, so mtlb_fprintf() is called.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

@@ -1,0 +1,72 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/intersections.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.92: Matlab function nargchk not yet converted, original calling sequence
+  used.
+   ! L.149: abs(mtlb_logic(mtlb_repmat(mtlb_min(mtlb_e(x1,1:$-1),mtlb_e(x1,2:$))
+ ,1,n2),"<=",mtlb_repmat(mtlb_0(mtlb_max(mtlb_e(x2,1:$-1),mtlb_e(x2,2:$))),n1,1)
+ ) & mtlb_logic(mtlb_repmat(mtlb_max(mtlb_e(x1,1:$-1),mtlb_e(x1,2:$)),1,n2),">="
+ ,mtlb_repmat(mtlb_0(mtlb_min(mtlb_e(x2,1:$-1),mtlb_e(x2,2:$))),n1,1)) & mtlb_lo
+ gic(mtlb_repmat(mtlb_min(mtlb_e(y1,1:$-1),mtlb_e(y1,2:$)),1,n2),"<=",mtlb_repma
+ t(mtlb_0(mtlb_max(mtlb_e(y2,1:$-1),mtlb_e(y2,2:$))),n1,1)) & mtlb_logic(mtlb_re
+ pmat(mtlb_max(mtlb_e(y1,1:$-1),mtlb_e(y1,2:$)),1,n2),">=",mtlb_repmat(mtlb_0(mt
+ lb_min(mtlb_e(y2,1:$-1),mtlb_e(y2,2:$))),n1,1))) may be replaced by:
+   !    --> mtlb_logic(mtlb_repmat(mtlb_min(mtlb_e(x1,1:$-1),mtlb_e(x1,2:$)),1,n
+ 2),"<=",mtlb_repmat(mtlb_0(mtlb_max(mtlb_e(x2,1:$-1),mtlb_e(x2,2:$))),n1,1)) & 
+ mtlb_logic(mtlb_repmat(mtlb_max(mtlb_e(x1,1:$-1),mtlb_e(x1,2:$)),1,n2),">=",mtl
+ b_repmat(mtlb_0(mtlb_min(mtlb_e(x2,1:$-1),mtlb_e(x2,2:$))),n1,1)) & mtlb_logic(
+ mtlb_repmat(mtlb_min(mtlb_e(y1,1:$-1),mtlb_e(y1,2:$)),1,n2),"<=",mtlb_repmat(mt
+ lb_0(mtlb_max(mtlb_e(y2,1:$-1),mtlb_e(y2,2:$))),n1,1)) & mtlb_logic(mtlb_repmat
+ (mtlb_max(mtlb_e(y1,1:$-1),mtlb_e(y1,2:$)),1,n2),">=",mtlb_repmat(mtlb_0(mtlb_m
+ in(mtlb_e(y2,1:$-1),mtlb_e(y2,2:$))),n1,1)) if mtlb_logic(mtlb_repmat(mtlb_min(
+ mtlb_e(x1,1:$-1),mtlb_e(x1,2:$)),1,n2),"<=",mtlb_repmat(mtlb_0(mtlb_max(mtlb_e(
+ x2,1:$-1),mtlb_e(x2,2:$))),n1,1)) & mtlb_logic(mtlb_repmat(mtlb_max(mtlb_e(x1,1
+ :$-1),mtlb_e(x1,2:$)),1,n2),">=",mtlb_repmat(mtlb_0(mtlb_min(mtlb_e(x2,1:$-1),m
+ tlb_e(x2,2:$))),n1,1)) & mtlb_logic(mtlb_repmat(mtlb_min(mtlb_e(y1,1:$-1),mtlb_
+ e(y1,2:$)),1,n2),"<=",mtlb_repmat(mtlb_0(mtlb_max(mtlb_e(y2,1:$-1),mtlb_e(y2
+ ,2:$))),n1,1)) & mtlb_logic(mtlb_repmat(mtlb_max(mtlb_e(y1,1:$-1),mtlb_e(y1,2:$
+ )),1,n2),">=",mtlb_repmat(mtlb_0(mtlb_min(mtlb_e(y2,1:$-1),mtlb_e(y2,2:$))),n1,
+ 1)) is Real.
+   !! L.153: WARNING: Matlab reshape() suppresses singleton higher dimension, it
+  is not the case for matrix.
+   !! L.154: WARNING: Matlab reshape() suppresses singleton higher dimension, it
+  is not the case for matrix.
+   !! L.202: message_id ignored in following line.
+   !! L.205: Matlab function lastwarn not yet converted, original calling sequen
+ ce used.
+   !! L.208: Matlab function lastwarn not yet converted.
+   !! L.209: Matlab function lastwarn not yet converted.
+   !! L.209: Matlab function lastwarn not yet converted, original calling sequen
+ ce used.
+   ! L.218: mtlb(err) can be replaced by err() or err whether err is an M-file o
+ r not.
+   !! L.218: Unknown function err not converted, original calling sequence used.
+   ! L.220: mtlb(err) can be replaced by err() or err whether err is an M-file o
+ r not.
+   !! L.220: Matlab function rethrow not yet converted, original calling sequenc
+ e used.
+   ! L.227: abs(overlap) may be replaced by:
+   !    --> overlap if overlap is Real.
+   !! L.242: Matlab function unique not yet converted, original calling sequence
+  used.
+   ! L.248: abs(selected) may be replaced by:
+   !    --> selected if selected is Real.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

@@ -1,0 +1,7 @@
+1) Create a set of planes using the Offset Distance and Number of planes to create options.
+
+2)) Sequentially create a sketch on each plane using the Intersection Curve tool.
+
+3) Right click the part in the graphics area and select Body > Delete.
+
+4) Extrude each sketch to create the slices, deselecting the Merge option to create a multi-body part. 

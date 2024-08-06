@@ -1,0 +1,20 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Error_Check.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   L.11: No simple equivalent, so mtlb_fprintf() is called.
+   L.15: No simple equivalent, so mtlb_fprintf() is called.
+   L.21: No simple equivalent, so mtlb_fprintf() is called.
+   L.27: No simple equivalent, so mtlb_fprintf() is called.
+   L.31: No simple equivalent, so mtlb_fprintf() is called.

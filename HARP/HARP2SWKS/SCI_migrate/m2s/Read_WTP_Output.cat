@@ -1,0 +1,11 @@
+Reads data from the WT_Perf output file, also checks for WT_Perf output errors
+Input:  fid: the MATLAB file identifier which corresponds to the WT_Perf output file
+        NumCol: the number of output columns in the WT_Perf output file          
+        CC: this is a flag that tells this function if the WT_Perf outfile
+            was from a Parametric Analysis or a Combined Case analysis
+
+Output: Output:    matrix, the first column is the first column of the
+                   WT_Perf output file (either the flow speeds or TSR's), and the remaining
+                   columns are the columns in the WT_Perf output file
+        WTP_Error: scalar, equal to 0 if no errors are detected in the
+                   output file, and equal to 1 if there are output errors

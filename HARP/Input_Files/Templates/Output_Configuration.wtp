@@ -1,0 +1,21 @@
+-----  I/O Settings  -----------------------------------------------------------
+True                 TabDel:                    Make output tab-delimited (fixed-width otherwise).
+True                 KFact:                     Output dimensional parameters in K (e.g., kN instead on N)
+False                WriteBED:                  Write out blade element data to "<rootname>.bed"?
+True                 InputTSR:                  Input speeds as TSRs?
+"mps"                SpdUnits:                  Wind-speed units (mps, fps, mph).
+-----  Combined-Case Analysis  -------------------------------------------------
+0                    NumCases:                  Number of cases to run.  Enter zero for parametric analysis.
+WS or TSR   RotSpd   Pitch                      Remove following block of lines if NumCases is zero.
+-----  Parametric Analysis (Ignored if NumCases > 0 )  -------------------------
+3                    ParRow:                    Row parameter    (1-rpm, 2-pitch, 3-tsr/speed).
+1                    ParCol:                    Column parameter (1-rpm, 2-pitch, 3-tsr/speed).
+2                    ParTab:                    Table parameter  (1-rpm, 2-pitch, 3-tsr/speed).
+False                OutPwr:                    Request output of rotor power?
+True                 OutCp:                     Request output of Cp?
+False                OutTrq:                    Request output of shaft torque?
+False                OutFlp:                    Request output of flap bending moment?
+False                OutThr:                    Request output of rotor thrust?
+0.0, 0.0, 0.0                                   PitSt, PitEnd, PitDel:            First, last, delta blade pitch (deg).
+1.00, 1.00, 0.00                                OmgSt, OmgEnd, OmgDel:            First, last, delta rotor speed (rpm).
+1.000, 10.000, 0.050                           SpdSt, SpdEnd, SpdDel:            First, last, delta speeds.

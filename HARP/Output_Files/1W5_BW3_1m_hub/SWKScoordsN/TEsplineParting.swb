@@ -1,0 +1,44 @@
+Dim swApp As Object
+Dim Part As Object
+Dim SelMgr As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim Feature As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.ActiveDoc
+Set SelMgr = Part.SelectionManager
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.InsertCurveFileBegin
+Part.InsertCurveFilePoint -0.200000, -0.121885, 0.120060
+Part.InsertCurveFilePoint -0.200000, -0.109617, 0.134132
+Part.InsertCurveFilePoint -0.200000, -0.099225, 0.148204
+Part.InsertCurveFilePoint -0.200000, -0.090235, 0.162276
+Part.InsertCurveFilePoint -0.200000, -0.082301, 0.176348
+Part.InsertCurveFilePoint -0.200000, -0.075242, 0.190420
+Part.InsertCurveFilePoint -0.200000, -0.068913, 0.204491
+Part.InsertCurveFilePoint -0.200000, -0.063200, 0.218563
+Part.InsertCurveFilePoint -0.200000, -0.058013, 0.232635
+Part.InsertCurveFilePoint -0.200000, -0.053276, 0.246707
+Part.InsertCurveFilePoint -0.200000, -0.048928, 0.260779
+Part.InsertCurveFilePoint -0.200000, -0.044918, 0.274851
+Part.InsertCurveFilePoint -0.200000, -0.041207, 0.288922
+Part.InsertCurveFilePoint -0.200000, -0.037776, 0.302994
+Part.InsertCurveFilePoint -0.200000, -0.034575, 0.317066
+Part.InsertCurveFilePoint -0.200000, -0.031566, 0.331138
+Part.InsertCurveFilePoint -0.200000, -0.028730, 0.345210
+Part.InsertCurveFilePoint -0.200000, -0.026453, 0.359282
+Part.InsertCurveFilePoint -0.200000, -0.023896, 0.373353
+Part.InsertCurveFilePoint -0.200000, -0.021441, 0.387425
+Part.InsertCurveFilePoint -0.200000, -0.019078, 0.401497
+Part.InsertCurveFilePoint -0.200000, -0.016782, 0.415569
+Part.InsertCurveFilePoint -0.200000, -0.014539, 0.429641
+Part.InsertCurveFilePoint -0.200000, -0.012329, 0.443713
+Part.InsertCurveFilePoint -0.200000, -0.010124, 0.457784
+Part.InsertCurveFilePoint -0.200000, -0.007924, 0.471856
+Part.InsertCurveFilePoint -0.200000, -0.005706, 0.485928
+Part.InsertCurveFilePoint -0.200000, -0.003387, 0.500000
+Part.InsertCurveFileEnd
+End Sub

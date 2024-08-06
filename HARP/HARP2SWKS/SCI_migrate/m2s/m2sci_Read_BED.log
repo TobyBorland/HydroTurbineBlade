@@ -1,0 +1,45 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Read_BED.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   ! L.10: real(NumCases .*NumCol) may be replaced by:
+   !    --> NumCases .*NumCol if NumCases .*NumCol is Real.
+   !! L.20: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   !! L.23: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   !! L.27: Matlab function cellfun not yet converted, original calling sequence
+  used.
+   ! L.27: abs(mtlb_logic(cellfun("length",Data),"~=",NumSeg)) may be replaced b
+ y:
+   !    --> mtlb_logic(cellfun("length",Data),"~=",NumSeg) if mtlb_logic(cellfun
+ ("length",Data),"~=",NumSeg) is Real.
+   ! L.38: abs(size(BED(n,1).entries)~=[NumSeg,COL]) may be replaced by:
+   !    --> size(BED(n,1).entries)~=[NumSeg,COL] if size(BED(n,1).entries)~=[Num
+ Seg,COL] is Real.
+   ! L.38: abs(mtlb_logic(BED(n,1).entries(:,3),">",9999)) may be replaced by:
+   !    --> mtlb_logic(BED(n,1).entries(:,3),">",9999) if mtlb_logic(BED(n,1).en
+ tries(:,3),">",9999) is Real.
+   ! L.38: abs(isnan(BED(n,1).entries)) may be replaced by:
+   !    --> isnan(BED(n,1).entries) if isnan(BED(n,1).entries) is Real.
+   ! L.38: abs(mtlb_any(abs(isnan(BED(n,1).entries)))) may be replaced by:
+   !    --> mtlb_any(abs(isnan(BED(n,1).entries))) if mtlb_any(abs(isnan(BED(n,1
+ ).entries))) is Real.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

@@ -1,0 +1,4 @@
+This function creates the WT_Perf input file for various configurations.
+flag = 0 for Cp vs. TSR, 
+flag = 1 for P vs. V
+flag = 2 for Combined Case analysis (active control turbines)

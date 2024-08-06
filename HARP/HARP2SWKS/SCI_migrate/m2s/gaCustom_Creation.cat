@@ -1,0 +1,11 @@
+This function creates the initial population for the genetic algorithm.
+Basically, this file needs to create a random distribution of the genetic
+algorithm variables (control points for the Bezier curve fits), but these 
+variables MUST obey the upper and lower bounds, and linear inequality 
+constraints defined in HARP_Opt.m
+
+Inputs:    GenomeLength: the number of variables that the genetic algorithm is using. 16 if fixed speed and 15 if variable speed turbine.
+           unused1: apparently an unused argument defined by MATLAB
+           options: this is the options structure created for the genetic algorithm, this options struction is defined in HARP_Opt.m
+
+Outputs:   Population: a matrix, containing all of the 15 or 16 dimensional vectors of the initial population

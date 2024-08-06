@@ -1,0 +1,17 @@
+   ****** gaCustom_Creation: Functions of mfile2sci() session ******
+   *
+   7 Matlab Function(s) not yet converted, original calling sequence used:
+   "waitbar"(Warning name conflict: function name changed from waitbar to %waitb
+ ar).
+   "setappdata"
+   "getappdata"
+   "sprintf"(Warning name conflict: function name changed from sprintf to %sprin
+ tf).
+   "figure"
+   "set"(Warning name conflict: function name changed from set to %set).
+   "xlim"
+   *
+   0 Matlab Toolbox(es) Functions, original calling sequence used :
+   *
+   0 Unknown Function(s), original calling sequence used :
+   *

@@ -1,0 +1,25 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Apply_3D_Corrections.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.75: Unknown function FindInd not converted, original calling sequence us
+ ed.
+   !! L.80: Unknown function FindInd not converted, original calling sequence us
+ ed.
+   !! L.80: Unknown function FindInd not converted, original calling sequence us
+ ed.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

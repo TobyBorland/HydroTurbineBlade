@@ -1,0 +1,58 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/Interp_Thickness_Profile.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.6: Matlab function waitbar not yet converted, original calling sequence 
+ used.
+   L.6: (Warning name conflict: function name changed from waitbar to %waitbar).
+   !! L.7: Matlab function get not yet converted, original calling sequence used
+ .
+   L.7: (Warning name conflict: function name changed from get to %get).
+   !! L.8: Matlab function get not yet converted, original calling sequence used
+ .
+   L.8: (Warning name conflict: function name changed from get to %get).
+   !! L.9: Matlab function set not yet converted, original calling sequence used
+ .
+   L.9: (Warning name conflict: function name changed from set to %set).
+   !! L.15: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   !! L.16: Matlab function textscan not yet converted, original calling sequenc
+ e used.
+   ! L.32: abs(A1(:,1)==1) may be replaced by:
+   !    --> A1(:,1)==1 if A1(:,1)==1 is Real.
+   ! L.33: abs(A2(:,1)==1) may be replaced by:
+   !    --> A2(:,1)==1 if A2(:,1)==1 is Real.
+   L.56: No simple equivalent, so mtlb_fprintf() is called.
+   L.57: No simple equivalent, so mtlb_fprintf() is called.
+   L.58: No simple equivalent, so mtlb_fprintf() is called.
+   L.59: No simple equivalent, so mtlb_fprintf() is called.
+   L.60: No simple equivalent, so mtlb_fprintf() is called.
+   L.61: No simple equivalent, so mtlb_fprintf() is called.
+   L.62: No simple equivalent, so mtlb_fprintf() is called.
+   L.63: No simple equivalent, so mtlb_fprintf() is called.
+   L.102: No simple equivalent, so mtlb_fprintf() is called.
+   L.103: No simple equivalent, so mtlb_fprintf() is called.
+   L.104: No simple equivalent, so mtlb_fprintf() is called.
+   L.105: No simple equivalent, so mtlb_fprintf() is called.
+   !! L.109: Matlab function waitbar not yet converted, original calling sequenc
+ e used.
+   L.109: (Warning name conflict: function name changed from waitbar to %waitbar
+ ).
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

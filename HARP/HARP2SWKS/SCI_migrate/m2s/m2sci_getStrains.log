@@ -1,0 +1,35 @@
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP/
+ Source_Code/getStrains.m
+   Result file path: C:/Documents and Settings/Foobert/Desktop/Geezer_Hydro/HARP
+ /HARP2SWKS/SCI_migrate/m2s/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.16: Matlab function atand not yet converted, original calling sequence u
+ sed.
+   !! L.17: Matlab function atand not yet converted, original calling sequence u
+ sed.
+   !! L.34: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.35: Matlab function sind not yet converted, original calling sequence us
+ ed.
+   !! L.36: Matlab function cosd not yet converted, original calling sequence us
+ ed.
+   !! L.37: Matlab function sind not yet converted, original calling sequence us
+ ed.
+   !! L.40: Unknown function intersections not converted, original calling seque
+ nce used.
+   !! L.58: Unknown function polygeom not converted, original calling sequence u
+ sed.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******

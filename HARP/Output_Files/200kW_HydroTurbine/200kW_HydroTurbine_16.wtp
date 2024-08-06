@@ -1,0 +1,118 @@
+-----  WT_Perf Input File  -----------------------------------------------------
+This file (Optimal Solution) was generated automatically by HARP_Opt on June 26, 2010  9:04 PM 
+This line is for user comments.                                                      
+-----  Input Configuration  ----------------------------------------------------
+False                Echo:                      Echo input parameters to "<rootname>.ech"?
+True                 DimenInp:                  Turbine parameters are dimensional?
+True                 Metric:                    Turbine parameters are Metric (MKS vs FPS)?
+-----  Model Configuration  ----------------------------------------------------
+1                    NumSect:                   Number of circumferential sectors.
+1000                 MaxIter:                   Max number of iterations for induction factor.
+1.0e-006             ATol:                      Error tolerance for induction iteration.
+1.0e-006             SWTol:                     Error tolerance for skewed-wake iteration.
+-----  Algorithm Configuration  ------------------------------------------------
+True                 TipLoss:                   Use the Prandtl tip-loss model?
+True                 HubLoss:                   Use the Prandtl hub-loss model?
+True                 Swirl:                     Include Swirl effects?
+True                 SkewWake:                  Apply skewed-wake correction?
+True                 AdvBrake:                  Use the advanced brake-state model?
+True                 IndProp:                   Use PROP-PC instead of PROPX induction algorithm?
+True                 AIDrag:                    Use the drag term in the axial induction calculation?
+True                 TIDrag:                    Use the drag term in the tangential induction calculation?
+-----  Turbine Data  -----------------------------------------------------------
+3                    NumBlade:                  Number of blades.
+5.000000             RotorRad:                  Rotor radius [length].
+0.750000             HubRad:                    Hub radius [length or div by radius].
+0.0                  PreCone:                   Precone angle, positive downstream [deg].
+0.0                  Tilt:                      Shaft tilt [deg].
+0.0                  Yaw:                       Yaw error [deg].
+10.000000            HubHt:                     Hub height [length or div by radius].
+30                   NumSeg:                    Number of blade segments (entire rotor radius).
+RElm    Twist   Chord  AFfile  PrntElem
+0.7558	29.058	1.2985	  1	True
+0.7790	28.211	1.2927	  2	True
+0.8252	26.723	1.2817	  3	True
+0.8939	24.928	1.2660	  4	True
+0.9842	23.026	1.2453	  5	True
+1.0953	21.163	1.2185	  6	True
+1.2258	19.373	1.1847	  7	True
+1.3745	17.657	1.1432	  8	True
+1.5395	16.058	1.0933	  9	True
+1.7192	14.527	1.0357	  10	True
+1.9116	13.094	0.9705	  11	True
+2.1145	11.724	0.8992	  12	True
+2.3258	10.423	0.8230	  13	True
+2.5430	9.188	0.7437	  14	True
+2.7639	8.009	0.6632	  15	True
+2.9861	6.895	0.5833	  16	True
+3.2070	5.847	0.5061	  17	True
+3.4242	4.865	0.4331	  18	True
+3.6355	3.953	0.3658	  19	True
+3.8384	3.117	0.3052	  20	True
+4.0308	2.358	0.2521	  21	True
+4.2105	1.680	0.2068	  22	True
+4.3755	1.081	0.1690	  23	True
+4.5242	0.565	0.1389	  24	True
+4.6547	0.133	0.1161	  25	True
+4.7658	-0.228	0.0977	  26	True
+4.8561	-0.505	0.0861	  27	True
+4.9248	-0.713	0.0777	  28	True
+4.9710	-0.852	0.0720	  29	True
+4.9942	-0.923	0.0691	  30	True
+-----  Aerodynamic Data  -------------------------------------------------------
+1025.000000          Rho:                 Air density [mass/volume].
+0.0000010600         KinVisc:             Kinematic air viscosity
+0.000                ShearExp:            Wind shear exponent (1/7 law = 0.143).
+True                 UseCm:               Are Cm data included in the airfoil tables?
+30                                        NumAF:               Number of airfoil files.
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0299.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0297.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0292.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0285.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0275.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0263.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0249.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0239.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0238.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0350_0236.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0382_0234.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0423_0232.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0465_0230.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0509_0228.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0553_0226.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0597_0224.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0641_0222.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0685_0220.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0727_0218.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0768_0216.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0806_0214.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0842_0212.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0875_0211.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0905_0210.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0931_0210.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0953_0210.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0971_0210.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0985_0210.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_0994_0210.dat"
+"Airfoil_Data\3D_Airfoil_Data\FFA_1000_0210.dat"
+-----  I/O Settings  -----------------------------------------------------------
+True                 TabDel:                    Make output tab-delimited (fixed-width otherwise).
+True                 KFact:                     Output dimensional parameters in K (e.g., kN instead on N)
+True                 WriteBED:                  Write out blade element data to "<rootname>.bed"?
+False                InputTSR:                  Input speeds as TSRs?
+"mps"                SpdUnits:                  Wind-speed units (mps, fps, mph).
+-----  Combined-Case Analysis  -------------------------------------------------
+0                    NumCases:                  Number of cases to run.  Enter zero for parametric analysis.
+WS or TSR   RotSpd   Pitch                      Remove following block of lines if NumCases is zero.
+-----  Parametric Analysis (Ignored if NumCases > 0 )  -------------------------
+3                    ParRow:                    Row parameter    (1-rpm, 2-pitch, 3-tsr/speed).
+1                    ParCol:                    Column parameter (1-rpm, 2-pitch, 3-tsr/speed).
+2                    ParTab:                    Table parameter  (1-rpm, 2-pitch, 3-tsr/speed).
+True                 OutPwr:                    Request output of rotor power?
+True                 OutCp:                     Request output of Cp?
+True                 OutTrq:                    Request output of shaft torque?
+True                 OutFlp:                    Request output of flap bending moment?
+True                 OutThr:                    Request output of rotor thrust?
+0.0, 0.0, 0.0                                   PitSt, PitEnd, PitDel:            First, last, delta blade pitch (deg).
+7.63, 7.63, 0.00                                OmgSt, OmgEnd, OmgDel:            First, last, delta rotor speed (rpm).
+0.200, 3.000, 0.100                            SpdSt, SpdEnd, SpdDel:            First, last, delta speeds.

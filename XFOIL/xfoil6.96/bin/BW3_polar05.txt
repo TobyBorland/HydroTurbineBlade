@@ -1,0 +1,14 @@
+  
+       XFOIL         Version 6.96
+  
+ Calculated polar for: Bergey BW-3  (smoothed)                         
+  
+ 1 1 Reynolds number fixed          Mach number fixed         
+  
+ xtrf =   1.000 (top)        1.000 (bottom)  
+ Mach =   0.000     Re =     0.200 e 6     Ncrit =   9.000
+  
+   alpha    CL        CD       CDp       CM     Top_Xtr  Bot_Xtr
+  ------ -------- --------- --------- -------- -------- --------
+   7.000   1.2995   0.03055   0.02167  -0.1199   0.0422   1.0000
+   8.000   1.3866   0.04354   0.03597  -0.1136   0.0515   1.0000

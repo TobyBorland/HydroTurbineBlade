@@ -1,0 +1,40 @@
+ 
+ 
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_1280_/mogaCustomPl
+ ot/plotFirstFront.m
+   Result file path: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_1280_/mogaCustomP
+ lot/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   ****** End of mfile2sci() session ******
+ 
+ 
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_1280_/mogaCustomPl
+ ot/mogaCustomPlot.m
+   Result file path: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_1280_/mogaCustomP
+ lot/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   ****** End of mfile2sci() session ******

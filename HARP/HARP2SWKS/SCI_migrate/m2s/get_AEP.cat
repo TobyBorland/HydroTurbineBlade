@@ -1,0 +1,5 @@
+This funtion calculate the annual energy production
+Inputs:    PvsV: a two column vector, first column is the flow speeds, second column is the power values
+           pUvars: vector which contains the appropriate variables needed for the selected probability distribution, pUvars  is defined in Main.m
+
+Outputs:   AEP: scalar, the AEP value

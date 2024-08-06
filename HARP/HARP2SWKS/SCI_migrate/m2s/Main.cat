@@ -1,0 +1,12 @@
+This is the main function of HARP_Opt, and is the function which is called
+upon by the genetic algorithm.  Its purpose is simple: accept an
+individual from the genetic algorithm and then return its fitness value.
+However this function must perform many different tasks in a very specific
+sequence in order to do this.  This function performs the following tasks:
+   -Builds the WT_Perf input files for either Parametric or Combined Case
+    analysis
+   -calls WT_Perf to evaluate the WT_Perf input files
+   -reads in output data from the WT_Perf output files
+   -determines the optimal rotor speeds for variable speed cases
+   -determines the optimal blade pitch for variable pitch cases
+   -writes data to the *Detailed_GA_Output.dat file

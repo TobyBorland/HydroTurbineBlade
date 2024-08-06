@@ -1,0 +1,4 @@
+This function requires that the two airfoil files have the same number of
+tables for Reynolds numbers, the Reynolds number values do not have to be
+the same, just the same number of tables.  The Reynolds number of airfoil
+3 will be the weighted average of airfoils 1 and 2.

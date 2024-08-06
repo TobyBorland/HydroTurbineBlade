@@ -1,0 +1,10 @@
+This function builds a stall-delay airfoil file.
+Inputs:    filename_2D: name of the 2D airfoil data file, for which the stall-delay equations will be applied to
+           r_over_R: scalar value, the non-dimensional radius
+           Chord: scalar value, the local chord
+           Thickness: scalar value, the local % thickness value
+           Vavg: scalar value, the average of the SpdSt and SpdEnd flow speeds
+           Omg: scalar value, the rotor speed
+
+Outputs:   none, after this function executes, the new airfoil files will
+           appear in the Output_Files\filename_main\Airfoil_Data\3D_Airfoil_Data directory

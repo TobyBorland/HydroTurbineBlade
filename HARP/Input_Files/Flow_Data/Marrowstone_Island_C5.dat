@@ -1,0 +1,44 @@
+This file allows the user to input a custom flow probability distribution used for calculating the 
+annual energy production (AEP). The area under this probability density function should be close 
+to 1. The column "p" is the probability of the flow speed "U" occuring. Enter U in units of (m/s). 
+The first value of U must be <= SpdSt, and the last value of U must be >= SpdEnd. The values you 
+enter for U in this file do NOT have to be equally spaced, HARP_Opt will interpolate these values 
+to match the flow speeds defined by the range SpdSt to SpdEnd at increment SpdDel. Make sure the
+flow speeds within this file span the range SpdSt to SpdEnd so extrapolation does not occur.
+
+Comments1: Flow measurements from Marrowstone Island, site C5, Puget Sound, Washington state, USA.
+Comments2: Data from: Gooch, et al. (2009) "Site Characterization for Tidal Power"
+DO NOT ADD OR REMOVE ANY LINES FROM THE HEADER OF THIS FILE.
+==================================================================================================
+U(m/s)	p(-)
+0.1   0.3466
+0.2   0.4648
+0.3   0.5827
+0.4   0.6215
+0.5   0.6271
+0.6   0.6810
+0.7   0.8399
+0.8   0.9666
+0.9   0.8529
+1.0   0.6920
+1.1   0.7272
+1.2   0.5387
+1.3   0.3504
+1.4   0.2341
+1.5   0.2041
+1.6   0.1881
+1.7   0.1867
+1.8   0.2327
+1.9   0.2328
+2.0   0.1856
+2.1   0.1356
+2.2   0.0678
+2.3   0.0382
+2.4   0.0290
+2.5   0.0095
+2.6   0.0076
+2.7   0.0057
+2.8   0.0038
+2.9   0.0019
+3.0   0
+4.0   0

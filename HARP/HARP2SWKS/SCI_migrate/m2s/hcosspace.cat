@@ -1,0 +1,3 @@
+if Flag = 0, half cosing spacing, points are packed more dense at the beginning
+if Flag = 1, half cosing spacing, points are packed more dense at the end
+if Flag = 3, full cosing spacing, points are packed more dense at the beginning AND end

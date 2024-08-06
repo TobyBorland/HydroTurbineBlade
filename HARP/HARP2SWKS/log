@@ -1,0 +1,50 @@
+ 
+ 
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_3724_/erfz/parts.m
+   Result file path: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_3724_/erfz/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   !! L.3: Matlab function complex not yet converted, original calling sequence 
+ used.
+   !! L.18: Matlab function complex not yet converted, original calling sequence
+  used.
+   !! L.34: Matlab function complex not yet converted, original calling sequence
+  used.
+   !! L.36: Matlab function complex not yet converted, original calling sequence
+  used.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be wrong (see the //!! comments).
+   ****** End of mfile2sci() session ******
+ 
+ 
+   ****** Beginning of mfile2sci() session ******
+   File to convert: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_3724_/erfz/erfz.m
+   Result file path: C:/DOCUME~1/Foobert/LOCALS~1/Temp/SCI_TMP_3724_/erfz/
+   Recursive mode: OFF
+   Only double values used in M-file: YES
+   Verbose mode: 3
+   Generate formated code: NO
+   M-file reading...
+   M-file reading: Done
+   Syntax modification...
+   Syntax modification: Done
+   Macro to tree conversion...
+   Conversion of M-tree...
+   ! L.22: abs(n(:)) may be replaced by:
+   !    --> n(:) if n(:) is Real.
+   Conversion of M-tree: Done
+   Macro to tree conversion: Done
+   Translation may be improved: see the //! comments and for all mtlb_<funname> 
+ function call\n  Type help mtlb_<funname> in Scilab command window to get infor
+ mation about improvements.
+   ****** End of mfile2sci() session ******

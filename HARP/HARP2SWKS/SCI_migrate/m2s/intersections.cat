@@ -1,0 +1,36 @@
+INTERSECTIONS Intersections of curves.
+   Computes the (x,y) locations where two curves intersect.  The curves
+   can be broken with NaNs or have vertical segments.
+
+ Example:
+   [X0,Y0] = intersections(X1,Y1,X2,Y2,ROBUST);
+
+ where X1 and Y1 are equal-length vectors of at least two points and
+ represent curve 1.  Similarly, X2 and Y2 represent curve 2.
+ X0 and Y0 are column vectors containing the points at which the two
+ curves intersect.
+
+ ROBUST (optional) set to 1 or true means to use a slight variation of the
+ algorithm that might return duplicates of some intersection points, and
+ then remove those duplicates.  The default is true, but since the
+ algorithm is slightly slower you can set it to false if you know that
+ your curves don't intersect at any segment boundaries.  Also, the robust
+ version properly handles parallel and overlapping segments.
+
+ The algorithm can return two additional vectors that indicate which
+ segment pairs contain intersections and where they are:
+
+   [X0,Y0,I,J] = intersections(X1,Y1,X2,Y2,ROBUST);
+
+ For each element of the vector I, I(k) = (segment number of (X1,Y1)) +
+ (how far along this segment the intersection is).  For example, if I(k) =
+ 45.25 then the intersection lies a quarter of the way between the line
+ segment connecting (X1(45),Y1(45)) and (X1(46),Y1(46)).  Similarly for
+ the vector J and the segments in (X2,Y2).
+
+ You can also get intersections of a curve with itself.  Simply pass in
+ only one curve, i.e.,
+
+   [X0,Y0] = intersections(X1,Y1,ROBUST);
+
+ where, as before, ROBUST is optional.
