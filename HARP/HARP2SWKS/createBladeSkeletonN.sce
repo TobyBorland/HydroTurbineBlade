@@ -305,8 +305,7 @@ disp("--XLS OUTPUT FILES MUST BE REFORMATTED TO MS EXCEL 2003 WITHIN LIBREOFFICE
 disp('COORD FRAME: Blade || Z-axis, Aerofoil chord || X-axis, Aerofoil thickness || Y-axis');
 
 
-HARP_dir = pwd(); //"C:\Documents and Settings\Foobert\Desktop\Geezer_Hydro\HARP\";
-//dataFile =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m_GRP3\", "1W5_BW3_1m_GRP3_Output_XLS3.xls");
+HARP_dir = pwd();
 //dataFile =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m\", "1W5_BW3_1m_OutputXLS3.xls");
 dataFile =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m_hub\", "1W5_BW3_1m_hub_OutputXLS3.xls");
 
@@ -314,7 +313,7 @@ disp('LOADING->');
 disp(dataFile);
 
 //saveDir =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m\SWKScoords\");
-saveDir =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m_hub\SWKScoords6\");//______________________________________________________________________________
+saveDir =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m_hub\SWKScoords\");
 
 subdiv = 30;
 
