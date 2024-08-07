@@ -26,7 +26,7 @@ The eventual design resorted to a log spiral curve for simplicity.
 As there are no generator controllers used in this design, the blades are designed to stall at the upper limit of their designed power output. 
 At the proposed location on the Thames, near Lambeth bridge, the river is tidal and flow is regularly reversed, so an airfoil section suited to low-flow, 
 low Reynolds number regimens, the Bergey BW3 was selected based on windtunnel tests described in [Selig et al](https://m-selig.ae.illinois.edu/uiuc_lsat/Low-Speed-Airfoil-Data-V3.pdf)[^3]
-[Airfoil Data file] (../XFOIL/Low-speed Airfoil Data Vol3, Selig et al.zip) in XFOIL folder
+[Airfoil Data file] (XFOIL/Low-speed Airfoil Data Vol3, Selig et al.zip) in XFOIL folder
 
 MIT [XFOIL](https://web.mit.edu/drela/Public/web/xfoil/) was used to generate lift and drag coefficients for the airfoil over various angles of attack.
 
