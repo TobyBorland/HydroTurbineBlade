@@ -1,0 +1,140 @@
+-----  WT_Perf Input File  -----------------------------------------------------
+This file (Optimal Solution) was generated automatically by HARP_Opt on February 05, 2012 12:47 PM 
+This line is for user comments.                                                  
+-----  Input Configuration  ----------------------------------------------------
+False                Echo:                      Echo input parameters to "<rootname>.ech"?
+True                 DimenInp:                  Turbine parameters are dimensional?
+True                 Metric:                    Turbine parameters are Metric (MKS vs FPS)?
+-----  Model Configuration  ----------------------------------------------------
+1                    NumSect:                   Number of circumferential sectors.
+500                  MaxIter:                   Max number of iterations for induction factor.
+1.0e-05              ATol:                      Error tolerance for induction iteration.
+1.0e-06              SWTol:                     Error tolerance for skewed-wake iteration.
+-----  Algorithm Configuration  ------------------------------------------------
+True                 TipLoss:                   Use the Prandtl tip-loss model?
+True                 HubLoss:                   Use the Prandtl hub-loss model?
+True                 Swirl:                     Include Swirl effects?
+True                 SkewWake:                  Apply skewed-wake correction?
+True                 AdvBrake:                  Use the advanced brake-state model?
+True                 IndProp:                   Use PROP-PC instead of PROPX induction algorithm?
+True                 AIDrag:                    Use the drag term in the axial induction calculation?
+True                 TIDrag:                    Use the drag term in the tangential induction calculation?
+-----  Turbine Data  -----------------------------------------------------------
+3                    NumBlade:                  Number of blades.
+0.500000             RotorRad:                  Rotor radius [length].
+0.120000             HubRad:                    Hub radius [length or div by radius].
+0.0                  PreCone:                   Precone angle, positive downstream [deg].
+0.0                  Tilt:                      Shaft tilt [deg].
+0.0                  Yaw:                       Yaw error [deg].
+6.000000             HubHt:                     Hub height [length or div by radius].
+30                   NumSeg:                    Number of blade segments (entire rotor radius).
+RElm    Twist   Chord  AFfile  PrntElem
+0.1263	31.595	0.2625	  1	True
+0.1390	30.575	0.2472	  2	True
+0.1517	29.229	0.2344	  3	True
+0.1643	27.751	0.2231	  4	True
+0.1770	26.223	0.2130	  5	True
+0.1897	24.684	0.2038	  6	True
+0.2023	23.159	0.1953	  7	True
+0.2150	21.661	0.1875	  8	True
+0.2277	20.199	0.1801	  9	True
+0.2403	18.781	0.1733	  10	True
+0.2530	17.412	0.1670	  11	True
+0.2657	16.094	0.1610	  12	True
+0.2783	14.829	0.1554	  13	True
+0.2910	13.618	0.1501	  14	True
+0.3037	12.461	0.1452	  15	True
+0.3163	11.368	0.1406	  16	True
+0.3290	10.340	0.1363	  17	True
+0.3417	9.367	0.1323	  18	True
+0.3543	8.449	0.1285	  19	True
+0.3670	7.592	0.1250	  20	True
+0.3797	6.812	0.1218	  21	True
+0.3923	6.084	0.1187	  22	True
+0.4050	5.408	0.1159	  23	True
+0.4177	4.815	0.1133	  24	True
+0.4303	4.281	0.1109	  25	True
+0.4430	3.795	0.1087	  26	True
+0.4557	3.394	0.1067	  27	True
+0.4683	3.053	0.1050	  28	True
+0.4810	2.757	0.1033	  29	True
+0.4937	2.557	0.1019	  30	True
+-----  Aerodynamic Data  -------------------------------------------------------
+1025.000000          Rho:                 Air density [mass/volume].
+0.0000010300         KinVisc:             Kinematic air viscosity
+0.000                ShearExp:            Wind shear exponent (1/7 law = 0.143).
+True                 UseCm:               Are Cm data included in the airfoil tables?
+30                                        NumAF:               Number of airfoil files.
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+"Airfoil_Data\BW3_0050.dat"
+-----  I/O Settings  -----------------------------------------------------------
+True                 TabDel:                    Make output tab-delimited (fixed-width otherwise).
+True                 KFact:                     Output dimensional parameters in K (e.g., kN instead on N)
+True                 WriteBED:                  Write out blade element data to "<rootname>.bed"?
+False                InputTSR:                  Input speeds as TSRs?
+"mps"                SpdUnits:                  Wind-speed units (mps, fps, mph).
+-----  Combined-Case Analysis  -------------------------------------------------
+34                   NumCases:                  Number of cases to run.  Enter zero for parametric analysis.
+WS or TSR   RotSpd   Pitch                      Remove following block of lines if NumCases is zero.
+0.200	14.71	0.0
+0.300	22.06	0.0
+0.400	29.41	0.0
+0.500	36.76	0.0
+0.600	44.12	0.0
+0.700	51.47	0.0
+0.800	58.82	0.0
+0.900	66.18	0.0
+1.000	73.53	0.0
+1.100	80.88	0.0
+1.200	88.24	0.0
+1.300	90.00	0.0
+1.400	90.00	0.0
+1.500	90.00	0.0
+1.600	90.00	0.0
+1.700	90.00	0.0
+1.800	90.00	0.0
+1.900	90.00	0.0
+2.000	90.00	0.0
+2.100	90.00	0.0
+2.200	90.00	0.0
+2.300	90.00	0.0
+2.400	89.38	0.0
+2.500	85.94	0.0
+2.600	84.42	0.0
+2.700	85.08	0.0
+2.800	82.89	0.0
+2.900	83.08	0.0
+3.000	83.08	0.0
+3.100	79.93	0.0
+3.200	79.45	0.0
+3.300	78.78	0.0
+3.400	77.92	0.0
+3.500	76.87	0.0

@@ -25,8 +25,8 @@ The eventual design resorted to a log spiral curve for simplicity.
 
 As there are no generator controllers used in this design, the blades are designed to stall at the upper limit of their designed power output. 
 At the proposed location on the Thames, near Lambeth bridge, the river is tidal and flow is regularly reversed, so an airfoil section suited to low-flow, 
-low Reynolds number regimens, the Bergey BW3 was selected based on windtunnel tests described in [Selig et al](https://m-selig.ae.illinois.edu/uiuc_lsat/Low-Speed-Airfoil-Data-V3.pdf)[^3]
-[Airfoil Data file] (XFOIL/Low-speed Airfoil Data Vol3, Selig et al.zip) in XFOIL folder
+low Reynolds number regimens, the Bergey BW3 was selected based on windtunnel tests described in [Selig et al](https://m-selig.ae.illinois.edu/uiuc_lsat/Low-Speed-Airfoil-Data-V3.pdf)[^3], 
+[Airfoil Data file](./XFOIL/Low-speed_Airfoil_Data_Vol3_Selig_et_al.zip) in XFOIL folder
 
 MIT [XFOIL](https://web.mit.edu/drela/Public/web/xfoil/) was used to generate lift and drag coefficients for the airfoil over various angles of attack.
 
@@ -34,15 +34,15 @@ MIT [XFOIL](https://web.mit.edu/drela/Public/web/xfoil/) was used to generate li
 
 This data is prepared for use in AeroDyn using the [`AirfoilPrep_v2.02.01.xls`](HARP/Input_Files/AirfoilPrep_v2.02.01.xls) worksheet, airfoil input data is collated within [`Airfoil_Data`](./HARP/Input_Files/Airfoil_Data) directory.
 
-Blade design optimisation for the BW3 airfoil instance is recorded in the Output_Files as [1W5_BW3_1m](./HARP/Output_Files/1W5_BW3_1m). 
+Blade design optimisation for the BW3 airfoil instance is recorded in the Output_Files as [1W5_BW3_1m](./HARP/Output_Files/1W5_BW3_1m). Earlier design runs employing several competing GA models are not shown for reasons of brevity. 
 This optimisation is further adapted to incorporating a hub in Output_Files as 1W5_BW3_1m_hub
-HARP parameters settings recorded in [`1W5_BW3_1m_Input.bmp`](./HARP/Output_Files/1W5_BW3_1m/1W5_BW3_1m_Input.bmp), [`1W5_BW3_1m_hub_Input.bmp`](./HARP/Output_Files/1W5_BW3_1m_hub/1W5_BW3_1m_hub_Input.bmp) respectively.
+HARP parameters settings recorded in [`1W5_BW3_1m_GRP3_Input.bmp`](HARP/Output_Files/1W5_BW3_1m_GRP3/1W5_BW3_1m_GRP3_Input.bmp), [`1W5_BW3_1m_hub_Input.bmp`](./HARP/Output_Files/1W5_BW3_1m_hub/1W5_BW3_1m_hub_Input.bmp) respectively.
 
 The original MATLAB files in [`Source_Code`](./HARP/Source_Code) were ported to Scilab using [`mfile2sci()`](https://help.scilab.org/docs/2024.1.0/en_US/mfile2sci.html) to allow exploration of the code without requiring a MATLAB license (SCI_migrate)
 The original HARP_Opt suppies a compiled Matlab executable, which functions with a runtime installer (not included for reasons of size, see HARP repository)
 The ported version is in [`HARP2SWKS/SCI_migrate`](./HARP/HARP2SWKS/SCI_migrate)
 
-[`createBladeSkeletonN.sce`](./HARP/HARP2SWKS/createBladeSkeletonN.sce) is a script that extracts the output values of teh blade element scale, radial displcement and orientation from the HARP_Opt worksheet.
+[`createBladeSkeletonN.sce`](./HARP/HARP2SWKS/createBladeSkeletonN.sce) is a script that extracts the output values of the blade element scale, radial displcement and orientation from the HARP_Opt worksheet.
 This script then creates interpolated airfoil sections and arranges them along the leading edge curve.
 The dimensions for a hub are also added to the model as arcs which serve as guides for SolidWorks[^4] shape creation.
 These airfoil profiles and edges are exported as Solidworks drawings in [`SWKScoords`](./HARP/Output_Files/1W5_BW3_1m_hub/SWKScoords).
