@@ -20,10 +20,10 @@ allowing the use of FLOSS environments.
 
 As the Thames is regularly filled with weed and debris, the blades were curved to allow debris caught on the leading edge to slide off. 
 This design is taken from the mixing blades used in slurry tanks. 
-A Clothoid spline curve creates a uniform tangential force on any particle trapped on the blade leading edge, this curve is also used in transport engineering so that motorists or train passengers are not subjected to uncomfortable forces transiting in and out of corners. 
+A Clothoid spline curve creates a uniform tangential force on any particle trapped on the blade leading edge. 
 The eventual design resorted to a log spiral curve for simplicity.
 
-As there are no generator controllers used in this design, the blades are designed to stall at the upper limit of their designed power output. 
+As there are no generator controller used in this design, the blades are designed to stall at the upper limit of their designed power output. 
 At the proposed location on the Thames, near Lambeth bridge, the river is tidal and flow is regularly reversed, so an airfoil section suited to low-flow, 
 low Reynolds number regimens, the Bergey BW3 was selected based on windtunnel tests described in [Selig et al](https://m-selig.ae.illinois.edu/uiuc_lsat/Low-Speed-Airfoil-Data-V3.pdf)[^3], 
 [Airfoil Data file](./XFOIL/Low-speed_Airfoil_Data_Vol3_Selig_et_al.zip) in XFOIL folder

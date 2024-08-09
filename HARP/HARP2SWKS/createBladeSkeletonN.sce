@@ -312,7 +312,7 @@ dataFile =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m_hub\", "1W5_BW3_1m
 disp('LOADING->');
 disp(dataFile);
 
-//saveDir =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m\SWKScoords\");
+//saveDir =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m_GRP3\SWKScoords\");
 saveDir =  fullfile(HARP_dir, "\Output_Files\", "\1W5_BW3_1m_hub\SWKScoords\");
 
 subdiv = 30;
